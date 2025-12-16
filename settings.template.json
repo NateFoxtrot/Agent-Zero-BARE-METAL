@@ -1,0 +1,32 @@
+{
+    "chat_model_provider": "google",
+    "chat_model_name": "gemini-3-pro-preview",
+    "chat_model_kwargs": {
+        "temperature": "1.0",
+        "custom_llm_provider": "vertex_ai",
+        "vertex_location": "global",
+        "vertex_project": ""
+    },
+    "util_model_provider": "vertex_ai",
+    "util_model_name": "gemini-2.0-flash-exp",
+    "util_model_kwargs": {
+        "temperature": "0",
+        "custom_llm_provider": "vertex_ai",
+        "vertex_location": "global",
+        "vertex_project": ""
+    },
+    "browser_model_provider": "vertex_ai",
+    "browser_model_name": "gemini-2.0-flash-exp",
+    "browser_model_kwargs": {
+        "temperature": "0",
+        "custom_llm_provider": "vertex_ai",
+        "vertex_location": "global",
+        "vertex_project": ""
+    },
+    "google_vertex_project": "",
+    "google_vertex_location": "global",
+    "google_json_key_path": "",
+    "shell_interface": "local",
+    "mcp_server_enabled": false,
+    "sentinel_enabled": true
+}
